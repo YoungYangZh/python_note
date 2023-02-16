@@ -936,3 +936,52 @@ raise关键字用于指出异常。你可以定义什么类型的错误被指出
 
 调试代码时使用assert关键词。尝试如果if返回true，如果返回false，assertionError被指出
 
+# 统计方法
+
+# **Django**
+
+# 创造虚拟空间
+
+虚拟空间
+
+每个django项目最好单独建立一个虚拟环境。我们可以使用python自带的venv来管理虚拟空间。
+
+Py -m venv 虚拟环境名
+
+
+
+# **Sqlite3**
+
+把数据库和 **sqlite3** 连接
+
+连接名=Sqlite3.connect（'数据库名'）
+
+创建指标
+
+指标名=连接名.cursor（）
+
+执行操作
+
+指标名.execute（sql命令）
+
+返回所有结果行
+
+指标名.fetchall（）
+
+提交事务
+
+指标名.commit（）
+
+关闭现有连接
+
+指标名.close（）
+
+# **FastAPI**
+
+POST创造
+
+GET读取
+
+PUT更新
+
+DELETE
