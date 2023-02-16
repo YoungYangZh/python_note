@@ -20,3 +20,13 @@ Pmf概率质量函数：求某数发生的概率
 stats.poisson.pmf(某数，平均数）
 cdf累积分布函数：求发生某数以下的概率
 stats.poisson.cdf(某数，平均数）
+
+**Stats.expon** 的方法
+cdf累积分布函数：求发生某数以下的概率
+expon.cdf(某数，scale=平均值）
+
+**Stats.t** 的方法
+找到比某t值小的概率
+t.cdf（某t值，自由度）
+
+t.ppt（自由度）
