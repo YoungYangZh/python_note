@@ -2112,4 +2112,7 @@ P值表示数据实际接近极端的程度。
 
 **Stats.poisson** 的方法
 
-Pmf概率质量函数
+Pmf概率质量函数：求某数发生的概率
+stats.poisson.pmf(某数，平均数）
+cdf累积分布函数：求发生某数以下的概率
+stats.poisson.cdf(某数，平均数）
