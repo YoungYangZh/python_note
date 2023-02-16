@@ -201,6 +201,9 @@ Numpy里有一个random包
  |
  |
 
+
+
+
 ## 正态分布
 
 Numpy.random.normal（）
@@ -217,9 +220,11 @@ Mean deviation平均偏差
 
 standard deviation标准偏差
 
+
 标准正态分布
 
 标准正态分布是平均值为0标准差为1的正态分布。
+
 
 **z** 值
 
@@ -234,6 +239,8 @@ norm.cdf（数字，均值，标准差）
 百分比点函数（cdf的逆函数—百分位数）
 
 norm.ppf（数字，均值，标准差）
+
+
 
 ## 二项分布random.binomial(n=尝试的次数，p=每次尝试的发生概率，size=返回数组的形状）
 
@@ -257,6 +264,8 @@ scipy.stats.binom.pmf（头数，试验次数，试验成功的概率）
 
 scipy.stats.binom.cdf（头数，试验次数，试验成功的概率）
 
+
+
 ## 泊松分布random.poisson(lam=平均发生次数，size=返回数组的形状）
 
 泊松分布是一种离散分布，用来估计一件事情在某一时间段发生的次数。事件发生有一定的概率，但是是完全随机的。
@@ -272,6 +281,7 @@ lam是lambda的缩写，用来描述泊松分布的形状。Lambda是分布的�
 二项分布和泊松分布的区别
 
 二项分布只有两种可能的结果，而泊松分布有无限可能的结果。但是足够大的n和接近于0的p，二项分布与泊松分布几乎相同，也就是nxp几乎等于lam
+
 
 
 ## 均匀分布uniform distribution
@@ -295,12 +305,16 @@ lam是lambda的缩写，用来描述泊松分布的形状。Lambda是分布的�
  |
  |
  
+ 
+ 
  ## 指数分布Exponential distribution
  指数分布用于描述到下一个事件发生的时间。
  random.exponential(scale=速率的倒数（默认为1）,size=（返回数组的形状）)
  scale相当于泊松分布里的lam
  泊松和指数分布的关系：
  泊松分布处理时间段内事件发生的次数，而指数分布处理这些事件之间的时间。
+ 
+ 
 
 数据框 **.sum** （【数组 **1** ，数组 **2** 】）
 
