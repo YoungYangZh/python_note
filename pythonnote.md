@@ -1,4 +1,4 @@
-#**python** 变量
+# **python** 变量
 
 不能用数字开始，不能包含空格，使用snake\_case
 
