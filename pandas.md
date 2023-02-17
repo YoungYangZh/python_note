@@ -270,7 +270,7 @@ Agg（）允许你应用一个函数或函数list沿着数据框的一个轴执�
 
 值可以是列表、字典、series和数据框。
 
-**groupby** （）
+### **groupby** （）
 
 数据框名.groupby（【标签】）
 
@@ -278,20 +278,9 @@ Agg（）允许你应用一个函数或函数list沿着数据框的一个轴执�
 | --- | --- | --- |
 | **as\_index** | True，False | 默认为true。设置为false如果结果不是用组标签作为索引。 |
 | --- | --- | --- |
-|
- |
- |
- |
-|
- |
- |
- |
-|
- |
- |
- |
 
-**concat** （）
+
+### **concat** （）
 
 竖着串联多个表。
 
@@ -299,7 +288,7 @@ pd.concat（【表1，表2，等】，参数）
 
 ignore\_index=True参数表示不是用原表的索引
 
-**append** （）添加数据框
+### **append** （）添加数据框
 
 现有数据框.append（添加数据框）
 
@@ -365,10 +354,7 @@ Pivot（）函数用于重塑一个给定的由索引/列值组织的数据框�
 | columns | 列，组，数组，列表 | 列表 |
 | fill\_value | 标量 | 默认值为None |
 | margins | bool | 默认False。增加一行或列。 |
-|
- |
- |
- |
+
 
 | **参数** | **值** | **描述** |
 | --- | --- | --- |
@@ -387,15 +373,13 @@ Pivot（）函数用于重塑一个给定的由索引/列值组织的数据框�
 | **var\_name** | 字符串 | 指定variable列的标签，默认variable |
 
 
-### **pd.to\_datetime()**
+### **pd.to\_datetime(要转换的对象)**
 
 把一个类标量类数组series或者数据框转化成pandas日期时间格式。
 
 | **参数** | **值** | **描述** |
 | --- | --- | --- |
 | utc | bool | 默认为None,控制与时区相关的解析、本地化和转换 |
-| --- | --- | --- |
-
 
 
 ### **Dropna()**
@@ -425,7 +409,9 @@ dropna() 方法删除包含NULL 值的行。
 
 返回数据框的索引信息，包括行标签。如果行没有名字标签，返回系列索引对象（start，stop和step values）。
 
-数据框**.Set\_index(**'索引值'**)**
+数据框**.
+
+\_index(**'索引值'**)**
 
 让一列或多列的值成为行索引。
 
@@ -666,18 +652,11 @@ Plt.legend（【标签1，标签2】）
 柱状图只需要一列。
 
 
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+# 数据框参考
+
+### 数据框.nlargest（几行）
+
+返回指定数量的行，在按指定列的最大值对数据框进行排序后，从顶部开始
+
+
 
