@@ -1,21 +1,29 @@
 # **Pandas**
 
-**Series** 系列
+## **Series** 系列
 
 一个pandas Series相当于表格中的一列。它是一个可以包含任意数据类型的一维数组。
 
 通过对象创建 **series**
 
-pd.series(对象)
+**pd.series(对象)**
 
 返回的series值都有自己的索引号
 
-| **参数** | **值** | **描述** |
+| 参数 | 值 | 描述 |
 | --- | --- | --- |
-| **index** | 数组 | 创建标签（索引值），可以通过index指定包含在series里的项目 |
-| --- | --- | --- |
+| index | 数组 | 创建标签（索引值），可以通过index指定包含在series里的项目 |
 
-数据框
+### series.dt
+
+可用于访问像datetime一样的series的值，并返回多个属性。
+
+#### series.dt.month
+
+返回一个numpy数组，其中包含给定series对象的日期的月份
+
+
+## 数据框
 
 Pd.dataframe()
 
