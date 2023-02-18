@@ -982,6 +982,31 @@ raise关键字用于指出异常。你可以定义什么类型的错误被指出
 
 调试代码时使用assert关键词。尝试如果if返回true，如果返回false，assertionError被指出
 
+
+
+# Python词汇表
+
+##日期、时间
+
+### datetime模块
+
+Python里的日期并不是日期类型，但是我们可以导入一个名为datetime的模块来把日期作为日期对象。
+
+#### datetime.datetime(年，月，日）
+
+创建一个日期
+
+#### datetime.datetime.now()
+
+#### datetime.datetime.now.year()
+
+#### datetime.strftime(格式)
+
+把日期对象转成可读的字符串
+
+
+
+
 # 统计方法
 
 # **Django**
