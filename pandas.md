@@ -33,18 +33,6 @@ Pd.dataframe()
 | --- | --- | --- |
 | **ascending** | True，False | 默认true。按升序分类 |
 | --- | --- | --- |
-|
- |
- |
- |
-|
- |
- |
- |
-|
- |
- |
- |
 
 字典到数据框
 
@@ -134,6 +122,12 @@ iloc属性获取或设置指定索引的值。
 使用from和to指定数据框的一部分
 
 数据框.iloc【行1：行2】
+
+
+## pd.Timestamp()
+
+pandas替代phthon datetime.datetime对象。
+
 
 ## 比较运算符
 
