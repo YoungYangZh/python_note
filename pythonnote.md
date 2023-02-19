@@ -897,7 +897,13 @@ fig,ax=plt.subplots()
 
 ### ax.boxplot(x)
 
+x必须是数组或向量序列
 
+### ax.scatter(x,y)
+
+| 参数 | 值 | 描述 |
+| --- | --- | --- |
+| c | 类数组或颜色的列表 | 标记的颜色 |
 
 ### ax.set_xlabel('标签名‘）
 
@@ -921,6 +927,8 @@ fig,ax=plt.subplots()
 ### ax.legend()
 
 在轴上放置图例
+
+### plt.style.use(’风格名称‘)
 
 
 
