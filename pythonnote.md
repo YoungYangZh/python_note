@@ -881,7 +881,7 @@ fig,ax=plt.subplots()
 | --- | --- | --- |
 | bottom | 浮点数或数组 | 柱底边的y坐标 |
 
-### ax.errorbar(数据位置)
+### ax.errorbar(x,y)
 
 | 参数 | 值 | 描述 |
 | --- | --- | --- |
@@ -895,7 +895,7 @@ fig,ax=plt.subplots()
 | bins | 整数或序列或字符串 | 如果是序列：它定义了bin的边缘，包括第一个bin的左边缘和最后一个bin的右边缘 |
 | histtype | ‘bar','barstacked','step','stepfilled' | 默认为bar |
 
-### ax.boxplot
+### ax.boxplot(x)
 
 
 
