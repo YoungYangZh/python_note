@@ -875,18 +875,52 @@ fig,ax=plt.subplots()
 
 可以添加数据到轴对象里。
 
+### ax.bar(x轴值，高度)
+
+| 参数 | 值 | 描述 |
+| --- | --- | --- |
+| bottom | 浮点数或数组 | 柱底边的y坐标 |
+
+### ax.errorbar(数据位置)
+
+| 参数 | 值 | 描述 |
+| --- | --- | --- |
+| yerr | 浮点数/数组/形状 | 错误栏大小 |
+
+### ax.hist(x轴值)
+
+| 参数 | 值 | 描述 |
+| --- | --- | --- |
+| labe | 字符串 | --- |
+| bins | 整数或序列或字符串 | 如果是序列：它定义了bin的边缘，包括第一个bin的左边缘和最后一个bin的右边缘 |
+| histtype | ‘bar','barstacked','step','stepfilled' | 默认为bar |
+
+### ax.boxplot
+
+
+
 ### ax.set_xlabel('标签名‘）
 
 定制轴标签
+
+### ax.set_xticklabels(标签)
 
 ### ax.twinx()
 
 创建一个共享x轴的双胞胎轴
 
-### ax.annotate（注释，xy=需要被注释的点）
+### ax.annotate（注释，（被注释的点））
 
 用文本注释xy点
 
+| 参数 | 值 | 描述 |
+| --- | --- | --- |
+| xytext | （浮点数，浮点数）| 放注释的点的位置 |
+| arrowprops | 字典 | 画一个连接xy和xytext之间的箭头 |
+
+### ax.legend()
+
+在轴上放置图例
 
 
 
