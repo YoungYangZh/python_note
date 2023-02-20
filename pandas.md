@@ -47,9 +47,9 @@ Pd.dataframe()
 
 大多数文件都是放在csv文件里，csv是用逗号隔开的值的缩写。
 
-要将csv数据作为pandas数据框导入到python，你可以使用read\_csv（）
+要将csv数据作为pandas数据框导入到python，你可以使用read_csv（）
 
-Pd.read\_csv("文件名.csv")
+**Pd.read_csv("文件名.csv")
 
 | 参数 | 值 | 描述 |
 | --- | --- | --- |
@@ -173,7 +173,7 @@ Apply（）
 | --- | --- | --- |
 | **on** | 字符串列表 | 指定在哪个区域进行合并 |
 | **left\_on** | 字符串列表 | 指定在哪个级别对左侧的数据框进行合并。 |
-| **suffixes** | 列表 | 指定要为重叠列添加的字符串列表。 |
+| **suffixes** | 列表 | 指定要为重叠列添加的字符串列表。 |o
 | **left\_index** | True，False | 默认false。是否使用左边数据框的索引作为共同索引 |
 | **indicator** | True，False，字符串 | 默认false。是否增加带有每列资源的一列 |
 | **validate** | 字符串 | 检查合并是否为指定类型 |
@@ -182,11 +182,13 @@ merge()函数通过合并两个数据框的内容来做一个新的数据框
 
 （）查询数据框
 
-数据框名.query（条件必须有）
+
+### 数据框名.query（条件必须有）
 
 Query（）方法允许你查询数据框。返回一个新数据框或者None。
 
-**isnull** （）找空值
+
+### isnull（）找空值
 
 数据框名.isnull（）
 
