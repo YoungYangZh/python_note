@@ -49,12 +49,13 @@ Pd.dataframe()
 
 要将csv数据作为pandas数据框导入到python，你可以使用read_csv（）
 
-**Pd.read_csv("文件名.csv")
+### Pd.read_csv("文件名.csv")
 
 | 参数 | 值 | 描述 |
 | --- | --- | --- |
 | index_col | 整数、字符串、false | 默认为none。作为数据框标签的列。如果为false，可以强制pandas不使用第一列作为标签 |
 | parse_dates | 布尔或列表 | 【1，2，3】表示第一二三列 |
+| chunksize | 数字 | 存储量大小 |
 
 
 ## 方括号
