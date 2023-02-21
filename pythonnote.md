@@ -1172,7 +1172,26 @@ enumerate函数接受一个集合（例如一个元祖），并将其作为一�
 
 表单名.append（'元素名'）
 
-pythong 关键词
+
+
+## Python文件方法
+
+### 文件.readline（）
+
+返回文件的一行
+
+
+## pythong 关键词
+
+### yield 
+
+结束一个函数（代替return），返回一个发生器
+
+
+
+
+
+
 
 ## Global
 
