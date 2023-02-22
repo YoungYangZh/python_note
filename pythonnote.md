@@ -949,7 +949,7 @@ x必须是数组或向量序列
 
 # Seaborn模块
 
-Seaborn建立在Matplotlib之上，用于图像化随机分布。
+Seaborn建立在Matplotlib之上，用于图像化随机分布（可以画很多小图）
 
 ## Seaborn图的分类
 
