@@ -1070,6 +1070,7 @@ categorical plot。用于在FacetGrid上绘制分类图的图形级接口，是�
 | --- | --- | --- |
 | x | --- | --- |
 | col | --- | --- |
+| hue,col,row | 字符串 | 定义数据子集的变量，这些数据将绘制在网格中的不同画布上 |
 
 #### sns.bloxplot.set(xlabel='',ylabel='')
 
