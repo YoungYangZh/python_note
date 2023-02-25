@@ -1,6 +1,6 @@
-# **Pandas**
+# Pandas
 
-## **Series** 系列
+## Series系列
 
 一个pandas Series相当于表格中的一列。它是一个可以包含任意数据类型的一维数组。
 
@@ -21,7 +21,7 @@
 
 #### series.dt.date
 
-返回numpy数组
+#### series.dt.date.today()
 
 #### series.dt.month
 
