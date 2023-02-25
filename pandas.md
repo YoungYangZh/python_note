@@ -14,9 +14,14 @@
 | --- | --- | --- |
 | index | 数组 | 创建标签（索引值），可以通过index指定包含在series里的项目 |
 
+
 ### series.dt
 
 可用于访问像datetime一样的series的值，并返回多个属性。
+
+#### series.dt.date
+
+返回numpy数组
 
 #### series.dt.month
 
