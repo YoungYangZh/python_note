@@ -4,9 +4,9 @@
 
 一个pandas Series相当于表格中的一列。它是一个可以包含任意数据类型的一维数组。
 
-通过对象创建 **series**
+### pd.series(对象)
 
-**pd.series(对象)**
+通过对象创建 series
 
 返回的series值都有自己的索引号
 
@@ -22,16 +22,22 @@
 
 返回一个numpy数组，其中包含给定series对象的日期的月份
 
+### series.str.strip（‘要删除的字符’）
+
+删除字符
+
 
 ## 数据框
 
-Pd.dataframe()
+Pandas中的数据集通常是多维表，称为DataFrames
+
+### Pd.dataframe()
 
 一个pandas数据框是一个二维的数据结构，像一个二维数组，或者一个拥有行和列的表格。
 
-| **参数** | **值** | **描述** |
+| 参数 | 值 | 描述 |
 | --- | --- | --- |
-| **ascending** | True，False | 默认true。按升序分类 |
+| ascending | True，False | 默认true。按升序分类 |
 | --- | --- | --- |
 
 字典到数据框
