@@ -1,14 +1,16 @@
-# python变量
+# Python教程
+
+## python变量
 
 不能用数字开始，不能包含空格，使用snake\_case
 
-## 全局变量
+### 全局变量
 
 在函数外部创建的变量称为全局变量。
 
 每个人都可以使用全局变量，无论是在函数内部还是外部。
 
-python数据类型
+## python数据类型
 
 python自带的数据类型：
 
@@ -22,7 +24,7 @@ python自带的数据类型：
 | 二进制类型 | bytes，bytearray，memoryview |
 | 无类型 | none |
 
-**python** 字符串
+## python 字符串
 
 字符串
 
@@ -54,7 +56,7 @@ len（字符串名）
 
 小写 **.lower** （）
 
-去除前后空格 **.strip** （）
+去除前后空格 .strip（）
 
 替代字符串 **.replace** （）
 
@@ -1324,6 +1326,7 @@ strip() 方法删除字符
 ### 文件.readline（）
 
 返回文件的一行
+
 
 
 ## pythong 关键词
